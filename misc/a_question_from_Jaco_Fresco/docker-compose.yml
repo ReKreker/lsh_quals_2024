@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  jaco_fresco:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "30002:30002"
+    healthcheck:
+      test: pidof jacofresco || exit 1
+      start_period: 5s
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
