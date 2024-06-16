@@ -1,0 +1,28 @@
+.item {
+	border: solid 1px #7f8c8d;	
+	border-radius: 5px;
+	background: #ecf0f1;	
+}
+
+.item > a {
+	width: 100%;
+}
+
+.item .name {
+	text-align: center;
+	background: #bdc3c7;
+	font-size: 14pt;
+	padding: 2px;
+}
+
+.item .content {
+	background: #34495e;
+	color: white;
+	padding: 10px;
+	font-family: monospace;
+	margin: 0;
+}
+
+.transfer-message {
+	color: #16a085;	
+}
