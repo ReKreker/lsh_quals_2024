@@ -9,8 +9,9 @@
 ```sh
 FLAG=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 5 | head -n 1)
 cp /flag.txt /flag$FLAG.txt
+```
 
-**Автор:** Cookie Arena - @shanglyu<br>
+**Автор:** Cookie Han Hoan - @shanglyu<br>
 **Ссылка:** ip:1340
 **Флаг:** `flag{base_64_md5_expl@it_1337}`<br>
 **Файлы:**

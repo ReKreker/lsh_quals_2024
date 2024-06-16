@@ -11,7 +11,7 @@ alice:alice
 bob:bob
 Rollback вернуть деньги
 
-**Автор:** Cookie Arena - @shanglyu<br>
+**Автор:** Cookie Han Hoan - @shanglyu<br>
 **Ссылка:** ip:1338
 **Флаг:** `flag{l0g1c_vuln_bob_al1c3}`<br>
 **Файлы:**
